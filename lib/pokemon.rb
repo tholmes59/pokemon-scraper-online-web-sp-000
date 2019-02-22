@@ -2,10 +2,10 @@ class Pokemon
   
   @@all = []
   
-  def initialize(name, breed, age)
+  def initialize(id, name, type)
+    @id = id 
     @name = name
-    @breed = breed
-    @age = age
+    @type = type
     @@all << self
   end
   
