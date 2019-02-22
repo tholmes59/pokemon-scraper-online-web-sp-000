@@ -23,7 +23,7 @@ end
  
 #   
  
-#   def self.save(name, breed, age, database_connection)
+#   def self.save(id:, name:, type:, db:, database_connection)
 #     database_connection.execute("INSERT INTO cats (name, breed, age) VALUES (?, ?, ?)",name, breed, age)
 #   end
 # end
