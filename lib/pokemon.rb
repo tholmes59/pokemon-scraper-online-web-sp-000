@@ -1,4 +1,8 @@
 class Pokemon
+  
+  @@all = []
+  
+  
 end
 
 
